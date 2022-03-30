@@ -1,0 +1,111 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif ;
+    background-color: black;
+}
+/*conteudo*/
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+/*cabeçalho*/
+header{
+    background-color: #48c5ce;
+     color: white;
+     text-align: center;
+}
+
+.title{
+   font-size: 26px;
+   padding: 10px;
+}
+
+section{
+    padding: 20px;
+    background-image: url('../Images/people-m.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+
+/*Formulario*/
+.formContainer{
+    max-width: 230px;
+    background-color: #ffffffbb;
+    padding: 20px;
+    float: right;
+}
+
+.formContainer> h2{
+    font-size: 16px;
+}
+
+.mb{
+    margin-bottom: 15px;
+}
+
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+#botao{
+    color: white;
+    background-color: #48c5ce;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*Rodapé*/
+footer{
+    background-color: #202121;
+    padding: 40px;
+    text-align: center;
+}
+
+.picture{
+    width: 160px;
+}
+
+.description{
+    color: white;
+    display: inline-block;
+    max-width: 40%;
+    margin-left: 40px;
+    
+}
+
+.description h3, .description p{
+    margin-bottom: 20px;
+}
+
+.description h3{
+    font-size:24px;
+}
+
+.description p{
+    text-align: justify;
+}
+
+#rodape{
+    color: #48c5ce;
+    margin-top: 30px;
+}
+
+#rodape a{
+    color:#03ffd5 ;
+    text-decoration: none;
+}
+
+#rodape a:hover{
+    text-decoration: underline;
+    color: aqua;
+}

@@ -1,0 +1,25 @@
+@media screen and (max-width:490px) {
+    .formContainer{
+        float: none;
+        margin: auto;
+    }
+
+    .description{
+        display: block;
+        margin: 10px auto;
+        max-width: none;
+        width: 100%;
+        text-align: justify;
+        margin-left: none;
+    }
+
+    .description h3,.description p{
+        margin-bottom:10px;
+    }
+
+    .description h3{
+        text-align: center;
+        margin-top: 5px;
+    }
+    
+}
